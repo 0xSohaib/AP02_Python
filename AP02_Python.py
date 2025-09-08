@@ -1,8 +1,11 @@
 import sys
 
 def rectange(width, height):
-    if width 
-    if height 
+if width <= 0 or height <= 0:
+        return
+    if height >= 1:
+        if width == 1:
+            print("o")
 
 
 
