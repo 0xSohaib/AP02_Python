@@ -1,13 +1,23 @@
 import sys
 
 def rectange(width, height):
-if width <= 0 or height <= 0:
+    if width <= 0 or height <= 0:
         return
     if height >= 1:
         if width == 1:
             print("o")
-
-
+        else:
+            print("o" + "-" * (width - 2) + "o")
+    for i in range(height - 2):
+        if width == 1:
+            print("|")
+        else:
+            print("|" + " " * (width - 2) + "|")
+    if height > 1:
+        if width == 1:
+            print("o")
+        else:
+            print("o" + "-" * (width - 2) + "o")
 
 def main():
     if len(sys.argv) == 3:
