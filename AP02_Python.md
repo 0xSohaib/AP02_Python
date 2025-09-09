@@ -71,7 +71,7 @@ def rectangle(width, height):
     Primera acción: Revisa si width <= 0 o height <= 0. No hace nada.
     Segunda acción: Revisa si el borde superior height >= 1, en ese caso Si width == 1, imprime "o". De lo contrario, imprime "o" + "-"*(width-2) + "o".
     Tercera acción: Repite (height-2) veces si width == 1, imprime "|", de lo contrario imprime "|" + " "*(width-2) + "|".
-    Última: Si heigth > 1 y width == 1: imprime "o". De lo contrairo imprime "o" + "-"*(width-2) + "o".
+    Última: Si height > 1 y width == 1: imprime "o". De lo contrairo imprime "o" + "-"*(width-2) + "o".
     """
     if width <= 0 or height <= 0:
         return
@@ -125,12 +125,12 @@ if __name__ == "__main__":
 ```python
 import sys
 
-def rectange(width, height):
+def rectangle(width, height):
     """
     Primera acción: Revisa si width <= 0 o height <= 0. No hace nada.
     Segunda acción: Revisa si el borde superior height >= 1, en ese caso Si width == 1, imprime "o". De lo contrario, imprime "o" + "-"*(width-2) + "o".
     Tercera acción: Repite (height-2) veces si width == 1, imprime "|", de lo contrario imprime "|" + " "*(width-2) + "|".
-    Última: Si heigth > 1 y width == 1: imprime "o". De lo contrairo imprime "o" + "-"*(width-2) + "o".
+    Última: Si height > 1 y width == 1: imprime "o". De lo contrairo imprime "o" + "-"*(width-2) + "o".
     """
     if width <= 0 or height <= 0:
         return
